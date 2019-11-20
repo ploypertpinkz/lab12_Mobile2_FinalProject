@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigations"
+    app:startDestination="@id/loginBankFragment">
+    <fragment
+        android:id="@+id/loginBankFragment"
+        android:name="buu.informatics.s59160587.finalcashproject.LoginBankFragment"
+        android:label="fragment_login_bank"
+        tools:layout="@layout/fragment_login_bank">
+        <action
+            android:id="@+id/action_loginBankFragment_to_openBankFragment"
+            app:destination="@id/openBankFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/openBankFragment"
+        android:name="buu.informatics.s59160587.finalcashproject.OpenBankFragment"
+        android:label="fragment_open_bank"
+        tools:layout="@layout/fragment_open_bank" >
+        <action
+            android:id="@+id/action_openBankFragment_to_mainBankFragment"
+            app:destination="@id/mainBankFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutBankFragment"
+        android:name="buu.informatics.s59160587.finalcashproject.AboutBankFragment"
+        android:label="fragment_about_bank"
+        tools:layout="@layout/fragment_about_bank" />
+    <fragment
+        android:id="@+id/mainBankFragment"
+        android:name="buu.informatics.s59160587.finalcashproject.MainBankFragment"
+        android:label="fragment_main_bank"
+        tools:layout="@layout/fragment_main_bank" >
+        <action
+            android:id="@+id/action_mainBankFragment_to_saveIncomeFragment"
+            app:destination="@id/saveIncomeFragment" />
+        <action
+            android:id="@+id/action_mainBankFragment_to_saveOutcomeFragment"
+            app:destination="@id/saveOutcomeFragment" />
+        <action
+            android:id="@+id/action_mainBankFragment_to_editIncomeFragment"
+            app:destination="@id/editIncomeFragment" />
+        <action
+            android:id="@+id/action_mainBankFragment_to_editOutcomeFragment"
+            app:destination="@id/editOutcomeFragment" />
+        <action
+            android:id="@+id/action_mainBankFragment_to_showBankFragment"
+            app:destination="@id/showBankFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/saveIncomeFragment"
+        android:name="buu.informatics.s59160587.finalcashproject.SaveIncomeFragment"
+        android:label="fragment_save_income"
+        tools:layout="@layout/fragment_save_income" />
+    <fragment
+        android:id="@+id/saveOutcomeFragment"
+        android:name="buu.informatics.s59160587.finalcashproject.SaveOutcomeFragment"
+        android:label="fragment_save_outcome"
+        tools:layout="@layout/fragment_save_outcome" />
+    <fragment
+        android:id="@+id/editIncomeFragment"
+        android:name="buu.informatics.s59160587.finalcashproject.EditIncomeFragment"
+        android:label="fragment_edit_income"
+        tools:layout="@layout/fragment_edit_income" />
+    <fragment
+        android:id="@+id/editOutcomeFragment"
+        android:name="buu.informatics.s59160587.finalcashproject.EditOutcomeFragment"
+        android:label="fragment_edit_outcome"
+        tools:layout="@layout/fragment_edit_outcome" />
+    <fragment
+        android:id="@+id/showBankFragment"
+        android:name="buu.informatics.s59160587.finalcashproject.ShowBankFragment"
+        android:label="fragment_show_bank"
+        tools:layout="@layout/fragment_show_bank" />
+</navigation>
