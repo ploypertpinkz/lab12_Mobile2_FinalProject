@@ -25,7 +25,7 @@ class OpenBankFragment : Fragment() {
         binding.openBankButton.setOnClickListener { view ->
             Timber.i("Open Bank Button Called")
             Toast.makeText(context, "gotoOpenBank", Toast.LENGTH_SHORT).show().run {
-                view.findNavController().navigate(R.id.action_loginBankFragment_to_openBankFragment)
+                view.findNavController().navigate(R.id.action_openBankFragment_to_mainBankFragment)
             }
         }
         setHasOptionsMenu(true)
