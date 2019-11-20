@@ -20,9 +20,10 @@ class EditOutcomeFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
+        Timber.i("Edit Outcome Page Called")
         val binding = DataBindingUtil.inflate<FragmentEditOutcomeBinding>(inflater,R.layout.fragment_edit_outcome,container,false)
 
-        Timber.i("Edit Outcome Page Called")
+
         return binding.root
     }
 

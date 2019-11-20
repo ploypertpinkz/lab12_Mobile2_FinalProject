@@ -20,7 +20,7 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/outcomeLabel"
+            android:id="@+id/incomeLabel"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/incomeText"
@@ -28,7 +28,7 @@
             android:textSize="30sp" />
 
         <TextView
-            android:id="@+id/nameOutcomeLabel"
+            android:id="@+id/nameIncomeLabel"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/nameObjectText"
@@ -36,7 +36,7 @@
             android:textSize="18sp" />
 
         <EditText
-            android:id="@+id/nameOutcomeText"
+            android:id="@+id/nameIncomeText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -44,7 +44,7 @@
             android:textAlignment="center" />
 
         <TextView
-            android:id="@+id/moneyOutcomeLabel"
+            android:id="@+id/moneyIncomeLabel"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/moneyObjextText"
@@ -52,7 +52,7 @@
             android:textSize="18sp" />
 
         <EditText
-            android:id="@+id/moneyOutcomeText"
+            android:id="@+id/moneyIncomeText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -60,7 +60,7 @@
             android:textAlignment="center" />
 
         <Button
-            android:id="@+id/saveOutcomeButton"
+            android:id="@+id/saveIncomeButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/saveincomeText"

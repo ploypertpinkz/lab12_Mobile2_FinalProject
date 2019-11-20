@@ -52,12 +52,20 @@
         android:id="@+id/saveIncomeFragment"
         android:name="buu.informatics.s59160587.finalcashproject.SaveIncomeFragment"
         android:label="fragment_save_income"
-        tools:layout="@layout/fragment_save_income" />
+        tools:layout="@layout/fragment_save_income" >
+        <action
+            android:id="@+id/action_saveIncomeFragment_to_mainBankFragment"
+            app:destination="@id/mainBankFragment" />
+    </fragment>
     <fragment
         android:id="@+id/saveOutcomeFragment"
         android:name="buu.informatics.s59160587.finalcashproject.SaveOutcomeFragment"
         android:label="fragment_save_outcome"
-        tools:layout="@layout/fragment_save_outcome" />
+        tools:layout="@layout/fragment_save_outcome" >
+        <action
+            android:id="@+id/action_saveOutcomeFragment_to_mainBankFragment"
+            app:destination="@id/mainBankFragment" />
+    </fragment>
     <fragment
         android:id="@+id/editIncomeFragment"
         android:name="buu.informatics.s59160587.finalcashproject.EditIncomeFragment"

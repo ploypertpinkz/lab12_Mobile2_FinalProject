@@ -47,7 +47,7 @@
                     android:id="@+id/sumtextLabel"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Money Sumary"
+                    android:text="@string/money_sumary"
                     android:textAlignment="center"
                     android:textSize="30sp"
                     android:textStyle="bold" />
@@ -75,7 +75,7 @@
                     android:id="@+id/sumIncomeTextabel"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Sum Income"
+                    android:text="@string/sum_income"
                     android:textAlignment="center"
                     android:textSize="24sp" />
 
@@ -96,7 +96,7 @@
                     android:id="@+id/sumIncomeDigitLabel"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="0"
+                    android:text="@string/_0"
                     android:textAlignment="center"
                     android:textSize="24sp" />
 

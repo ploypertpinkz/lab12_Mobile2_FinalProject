@@ -24,7 +24,7 @@
             android:id="@+id/editIncomeLabel"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Edit Income"
+            android:text="@string/editincomeText"
             android:textAlignment="center"
             android:textSize="24sp" />
 
@@ -36,7 +36,7 @@
                 android:id="@+id/editIncomelabelText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="food"
+                android:text="@string/foodText"
                 android:textAlignment="center"
                 android:textSize="18sp" />
 

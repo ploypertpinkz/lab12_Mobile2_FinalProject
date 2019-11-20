@@ -45,7 +45,7 @@
             android:id="@+id/singinButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Sing in"
+            android:text="@string/singinText"
             android:textAlignment="center"
             android:textSize="18sp"
             android:textStyle="bold" />

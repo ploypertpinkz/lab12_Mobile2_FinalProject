@@ -16,4 +16,11 @@ And helps to calculate your income effectively </string>
     <string name="outcomeText">Outcome</string>
     <string name="saveoutcomeText">Save Outcome</string>
     <string name="navigation">navigations</string>
+    <string name="foodText">food</string>
+    <string name="editincomeText">Edit Income</string>
+    <string name="editoutcomeText">Edit Outcome</string>
+    <string name="singinText">Sing in</string>
+    <string name="money_sumary">Money Sumary</string>
+    <string name="sum_income">Sum Income</string>
+    <string name="_0">0</string>
 </resources>

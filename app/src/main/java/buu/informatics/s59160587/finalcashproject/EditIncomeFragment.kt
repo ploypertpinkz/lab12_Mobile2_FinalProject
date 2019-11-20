@@ -20,9 +20,10 @@ class EditIncomeFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
+        Timber.i("Edit Income Page Called")
         val binding = DataBindingUtil.inflate<FragmentEditIncomeBinding>(inflater,R.layout.fragment_edit_income,container,false)
 
-        Timber.i("Edit Income Page Called")
+
         return binding.root
     }
 

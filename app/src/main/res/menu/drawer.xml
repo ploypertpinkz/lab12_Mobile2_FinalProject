@@ -1,2 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android"/>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/showBankFragment"
+        android:title="Show Bank" />
+    <item
+        android:id="@+id/editIncomeFragment"
+        android:title="@string/editincomeText" />
+    <item
+        android:id="@+id/editOutcomeFragment"
+        android:title="@string/editoutcomeText" />
+</menu>
