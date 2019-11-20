@@ -35,8 +35,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:autoText="true"
-                    android:background="@android:drawable/ic_delete"
-                    android:textSize="8sp" />
+                    android:background="@android:drawable/ic_menu_delete"
+                    android:textSize="6sp" />
             </TableRow>
 
             <TableRow
