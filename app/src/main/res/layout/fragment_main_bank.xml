@@ -18,13 +18,15 @@
 
             <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
                 android:textAlignment="center">
 
                 <TextView
                     android:id="@+id/mybankLabel"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_span="2"
                     android:text="@string/mybankText"
                     android:textAlignment="center"
                     android:textSize="36sp"
@@ -33,7 +35,8 @@
                 <Button
                     android:id="@+id/deleteButton"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
                     android:autoText="true"
                     android:background="@android:drawable/ic_menu_delete"
                     android:textSize="6sp" />
@@ -47,6 +50,7 @@
                     android:id="@+id/sumtextLabel"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_span="3"
                     android:text="@string/money_sumary"
                     android:textAlignment="center"
                     android:textSize="30sp"
@@ -61,6 +65,7 @@
                     android:id="@+id/sumdigitTextLabel"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_span="3"
                     android:text="0"
                     android:textAlignment="center"
                     android:textSize="30sp"
@@ -83,6 +88,7 @@
                     android:id="@+id/sumOutcomeTextLabel"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_column="2"
                     android:text="Sum Outcome"
                     android:textAlignment="center"
                     android:textSize="24sp" />
@@ -104,6 +110,7 @@
                     android:id="@+id/sumOutcomeDigitLabel"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_column="2"
                     android:text="0"
                     android:textAlignment="center"
                     android:textSize="24sp" />

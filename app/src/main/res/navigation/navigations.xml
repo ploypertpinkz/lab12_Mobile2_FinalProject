@@ -55,7 +55,9 @@
         tools:layout="@layout/fragment_save_income" >
         <action
             android:id="@+id/action_saveIncomeFragment_to_mainBankFragment"
-            app:destination="@id/mainBankFragment" />
+            app:destination="@id/mainBankFragment"
+            app:popUpTo="@+id/mainBankFragment"
+            app:popUpToInclusive="false" />
     </fragment>
     <fragment
         android:id="@+id/saveOutcomeFragment"
@@ -64,21 +66,41 @@
         tools:layout="@layout/fragment_save_outcome" >
         <action
             android:id="@+id/action_saveOutcomeFragment_to_mainBankFragment"
-            app:destination="@id/mainBankFragment" />
+            app:destination="@id/mainBankFragment"
+            app:popUpTo="@+id/mainBankFragment"
+            app:popUpToInclusive="false" />
     </fragment>
     <fragment
         android:id="@+id/editIncomeFragment"
         android:name="buu.informatics.s59160587.finalcashproject.EditIncomeFragment"
         android:label="fragment_edit_income"
-        tools:layout="@layout/fragment_edit_income" />
+        tools:layout="@layout/fragment_edit_income" >
+        <action
+            android:id="@+id/action_editIncomeFragment_to_mainBankFragment"
+            app:destination="@id/mainBankFragment"
+            app:popUpTo="@+id/mainBankFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
     <fragment
         android:id="@+id/editOutcomeFragment"
         android:name="buu.informatics.s59160587.finalcashproject.EditOutcomeFragment"
         android:label="fragment_edit_outcome"
-        tools:layout="@layout/fragment_edit_outcome" />
+        tools:layout="@layout/fragment_edit_outcome" >
+        <action
+            android:id="@+id/action_editOutcomeFragment_to_mainBankFragment"
+            app:destination="@id/mainBankFragment"
+            app:popUpTo="@+id/mainBankFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
     <fragment
         android:id="@+id/showBankFragment"
         android:name="buu.informatics.s59160587.finalcashproject.ShowBankFragment"
         android:label="fragment_show_bank"
-        tools:layout="@layout/fragment_show_bank" />
+        tools:layout="@layout/fragment_show_bank" >
+        <action
+            android:id="@+id/action_showBankFragment_to_mainBankFragment"
+            app:destination="@id/mainBankFragment"
+            app:popUpTo="@+id/mainBankFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
 </navigation>
